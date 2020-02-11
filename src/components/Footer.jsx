@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.copyright}>
-        2020 Copyright &copy; All Rights Reserved By Wind + James
+        2020 Copyright &copy; All Rights Reserved By WIND + JAMES
     </div>
     </>
   )
