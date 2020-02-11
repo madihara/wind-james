@@ -1,0 +1,49 @@
+[
+  {
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "color": "#ff2426"
+      }
+    ]
+  },
+  {
+    "featureType": "landscape",
+    "stylers": [
+      {
+        "color": "#ffd9ee"
+      }
+    ]
+  },
+  {
+    "featureType": "landscape",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "color": "#ffd9ee"
+      }
+    ]
+  },
+  {
+    "featureType": "landscape",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "color": "#ffd9ee"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.school",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "color": "#ff0000"
+      }
+    ]
+  }
+]
+
+
+
+https: //maps.googleapis.com/maps/api/staticmap?key=YOUR_API_KEY&center=42.11330658110016,-85.63153565218433&zoom=17&format=png&maptype=roadmap&style=element:labels.icon%7Ccolor:0xff2426&style=feature:landscape%7Ccolor:0xffd9ee&style=feature:landscape%7Celement:labels%7Ccolor:0xffd9ee&style=feature:landscape%7Celement:labels.text%7Ccolor:0xffd9ee&style=feature:poi.school%7Celement:labels.icon%7Ccolor:0xff0000&size=480x360

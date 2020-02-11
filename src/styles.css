@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Prompt:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Prompt:200&display=swap');
+
+:root{
+  --accentColor:#F5DBE1;
+  --mainColor:   #F89BBA;
+}
 
 *{
   margin: 0;
@@ -8,9 +13,34 @@
 }
 
 body{
-  background-color: #F89BBA;
   height: 100%;
   font-family: 'Prompt', sans-serif;
-  font-weight: normal;
+  font-weight: lighter;
+}
+
+.indexPage{
+  background-color: #F89BBA;
+}
+
+
+.image{
+  width:100%;
+ 
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  padding: 0 7rem;
+}
+
+.box{
+  color: white;
+  padding: 4rem;
+}
+
+.title{
+  color: red;
+  font-size: 2rem;
 }
 
