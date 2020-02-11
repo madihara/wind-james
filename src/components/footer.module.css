@@ -29,3 +29,12 @@
 p{
   font-weight: 500;
 }
+
+.copyright{
+  color: var(--mainColor);
+  font-size: 0.9rem;
+  
+  text-align: center;
+  background-color: var(--accentColor);
+  padding-bottom: 1rem;
+}
