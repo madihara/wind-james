@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   width:100%;
+  background: var(--mainColor);
+  position: fixed;
 }
 
 .logo{
