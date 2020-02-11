@@ -7,13 +7,25 @@
   color: white;
   display: flex;
   justify-content: center;
+  
 }
 
 .box{
   border-left: 4px solid var(--mainColor);
   padding: 3rem 10rem;
+  align-content: left;
 }
 
 .right{
   border-left: none;
+}
+
+.title {
+  color: var(--mainColor);
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+p{
+  font-weight: 500;
 }
